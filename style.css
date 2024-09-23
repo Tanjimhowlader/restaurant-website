@@ -53,17 +53,16 @@ li>a{
 }
 .img{
    width:353px;
-      height:201px;
+   height: 210px;
 }
 .img_container{
    display: flex;
    margin: 40px;
    align-items: center;
    gap: 30px;
+   justify-content: center;
 }
 .img_container p {
-
-   line-height: 50px;
    margin: 40px;
 }
 .your-class img{
@@ -75,6 +74,7 @@ li>a{
    justify-content: center;
    gap:20px;
 }
+
 .your-class p{
    font-size: 30px;
    width: 551px;
@@ -172,6 +172,40 @@ margin: 20px 0;
    display: flex;
    justify-content: center;
 } 
+.titlearea{
+   padding: 20px 0;
+}
+
+.titlearea h2,
+h1{
+   text-align: center;
+   padding: 20px 0;
+}
+.projects_img{
+   width: 300px;
+   height:250px;
+   overflow: hidden;
+}
+.projects_img img{
+   width: 100%;
+}
+.projects_img img:hover{
+   animation-name: scroll;
+   animation-duration: 4s;
+}
+@keyframes scroll{
+   from{
+      transform:translateY(0px);
+   }
+   to{
+      transform: translateY(-100%)
+   }
+}
+.porflio_area{
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+}
 .mobile_memu{
    position: absolute;
    right: 0;
@@ -207,4 +241,63 @@ margin: 20px 0;
       
    } 
 }
+.rss-img img{
+   width: 173px;
+   height: 113px;
+}
 
+.res-right p{
+   width:400px;
+   line-height: 20px;
+}
+.head_borden{
+   width: 100px;
+   border-color: orange;
+   border-width: 5px;
+      margin: 80px 0 40px;
+}
+
+.header-area h1{
+display: flex;
+justify-content: center;
+}
+.header-area p{
+   display: flex;
+   justify-content: center;
+}
+.form_group{
+   display: flex;
+   justify-content: center; 
+   gap:20px;
+   margin-top: 13px;
+}
+input{
+display: block;
+width:260px;
+height:25px;
+
+}
+.form_group{
+   display: flex;
+   justify-content: center;
+}
+.form_iconc {
+display: flex;
+}
+
+.form_iconc i{
+   margin-left: -20px;
+}
+.form_email{
+   display: flex;
+}
+.form_email i{
+   margin-left: -30px;
+}
+.form_user  {
+   display: flex;
+
+}
+.form_user i{
+   margin-left: 20px;
+}
